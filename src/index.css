@@ -1,0 +1,91 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+*,
+body {
+  font-family: "Josefin Sans", sans-serif;
+  box-sizing: border-box !important;
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* JosefinSans */
+@font-face {
+  font-family: "Josefin Sans";
+  src: local("Josefin Sans"),
+    url("./assets/Fonts/JosefinSans/JosefinSans-Regular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Josefin Sans";
+  src: local("Josefin Sans"),
+    url("./assets/Fonts/JosefinSans/JosefinSans-Italic.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Josefin Sans";
+  src: local("Josefin Sans"),
+    url("./assets/Fonts/JosefinSans/JosefinSans-Bold.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Josefin Sans";
+  src: local("Josefin Sans"),
+    url("./assets/Fonts/JosefinSans/JosefinSans-SemiBold.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Josefin Sans";
+  src: local("Josefin Sans"),
+    url("./assets/Fonts/JosefinSans/JosefinSans-Light.ttf") format("truetype");
+}
+
+/* Playfair */
+@font-face {
+  font-family: "Playfair Display";
+  src: local("Playfair Display"),
+    url("./assets/Fonts/Playfair/PlayfairDisplay-Regular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Playfair Display";
+  src: local("Playfair Display"),
+    url("./assets/Fonts/Playfair/PlayfairDisplay-Italic.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Playfair Display";
+  src: local("Playfair Display"),
+    url("./assets/Fonts/Playfair/PlayfairDisplay-Bold.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Playfair Display";
+  src: local("Playfair Display"),
+    url("./assets/Fonts/Playfair/PlayfairDisplay-SemiBold.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Playfair Display";
+  src: local("Playfair Display"),
+    url("./assets/Fonts/Playfair/PlayfairDisplay-ExtraBold.ttf") format("truetype");
+}
+
+/* Ananda Calligraphy */
+@font-face {
+  font-family: "Ananda";
+  src: local("Ananda"), url("./assets/Fonts/Ananda/Ananda.ttf") format("truetype");
+}
+
+/* Salma */
+@font-face {
+  font-family: "Salma";
+  src: local("Salma"),
+    url("./assets/Fonts/Salma/SalmaproMedium.otf") format("opentype");
+}
